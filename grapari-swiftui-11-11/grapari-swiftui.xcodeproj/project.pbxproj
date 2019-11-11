@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C16F4B1237422E300A5A8FB /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C16F4B0237422E300A5A8FB /* Auth.swift */; };
+		6C2743882371471100C07E21 /* GrapariReportDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2743872371471100C07E21 /* GrapariReportDetail.swift */; };
+		6C27438C2371519900C07E21 /* GrapariItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27438B2371519900C07E21 /* GrapariItem.swift */; };
+		6C27438F23715F3600C07E21 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27438E23715F3600C07E21 /* LoginView.swift */; };
+		6C2743922371633A00C07E21 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2743912371633A00C07E21 /* User.swift */; };
+		6C66FBE1236AA9C8002C970F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBE0236AA9C8002C970F /* AppDelegate.swift */; };
+		6C66FBE3236AA9C8002C970F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBE2236AA9C8002C970F /* SceneDelegate.swift */; };
+		6C66FBE7236AA9CD002C970F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C66FBE6236AA9CD002C970F /* Assets.xcassets */; };
+		6C66FBEA236AA9CD002C970F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C66FBE9236AA9CD002C970F /* Preview Assets.xcassets */; };
+		6C66FBED236AA9CD002C970F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C66FBEB236AA9CD002C970F /* LaunchScreen.storyboard */; };
+		6C66FBF5236AAA0F002C970F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBF4236AAA0F002C970F /* BaseView.swift */; };
+		6C66FBF7236AAB6E002C970F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBF6236AAB6E002C970F /* HomeView.swift */; };
+		6C66FBF9236AAB80002C970F /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBF8236AAB80002C970F /* ChecklistView.swift */; };
+		6C66FBFB236AABDD002C970F /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBFA236AABDD002C970F /* ReportView.swift */; };
+		6C66FBFD236AABFB002C970F /* LogoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C66FBFC236AABFB002C970F /* LogoutView.swift */; };
+		6CEDA046237002E700D1DB23 /* GrapariForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEDA045237002E700D1DB23 /* GrapariForm.swift */; };
+		6CFAF50D23711FAF0029EC7F /* GrapariReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAF50C23711FAF0029EC7F /* GrapariReport.swift */; };
+		6CFD47EA236FDDC800A35CAB /* Grapari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFD47E9236FDDC800A35CAB /* Grapari.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C16F4B0237422E300A5A8FB /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		6C2743872371471100C07E21 /* GrapariReportDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapariReportDetail.swift; sourceTree = "<group>"; };
+		6C27438B2371519900C07E21 /* GrapariItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapariItem.swift; sourceTree = "<group>"; };
+		6C27438E23715F3600C07E21 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6C2743912371633A00C07E21 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6C66FBDD236AA9C8002C970F /* grapari-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "grapari-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C66FBE0236AA9C8002C970F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C66FBE2236AA9C8002C970F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C66FBE6236AA9CD002C970F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C66FBE9236AA9CD002C970F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C66FBEC236AA9CD002C970F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C66FBEE236AA9CD002C970F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C66FBF4236AAA0F002C970F /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6C66FBF6236AAB6E002C970F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6C66FBF8236AAB80002C970F /* ChecklistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistView.swift; sourceTree = "<group>"; };
+		6C66FBFA236AABDD002C970F /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		6C66FBFC236AABFB002C970F /* LogoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutView.swift; sourceTree = "<group>"; };
+		6CEDA045237002E700D1DB23 /* GrapariForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapariForm.swift; sourceTree = "<group>"; };
+		6CFAF50C23711FAF0029EC7F /* GrapariReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapariReport.swift; sourceTree = "<group>"; };
+		6CFD47E9236FDDC800A35CAB /* Grapari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grapari.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C66FBDA236AA9C8002C970F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C2743902371632200C07E21 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6C2743912371633A00C07E21 /* User.swift */,
+				6C16F4B0237422E300A5A8FB /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		6C66FBD4236AA9C8002C970F = {
+			isa = PBXGroup;
+			children = (
+				6C66FBDF236AA9C8002C970F /* grapari-swiftui */,
+				6C66FBDE236AA9C8002C970F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C66FBDE236AA9C8002C970F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C66FBDD236AA9C8002C970F /* grapari-swiftui.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C66FBDF236AA9C8002C970F /* grapari-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				6C2743902371632200C07E21 /* Auth */,
+				6CFD47E8236FDDB500A35CAB /* Grapari */,
+				6C66FBE0236AA9C8002C970F /* AppDelegate.swift */,
+				6C66FBE2236AA9C8002C970F /* SceneDelegate.swift */,
+				6C66FBF4236AAA0F002C970F /* BaseView.swift */,
+				6C66FBF6236AAB6E002C970F /* HomeView.swift */,
+				6C66FBF8236AAB80002C970F /* ChecklistView.swift */,
+				6C66FBFA236AABDD002C970F /* ReportView.swift */,
+				6C66FBFC236AABFB002C970F /* LogoutView.swift */,
+				6C27438E23715F3600C07E21 /* LoginView.swift */,
+				6C66FBE6236AA9CD002C970F /* Assets.xcassets */,
+				6C66FBEB236AA9CD002C970F /* LaunchScreen.storyboard */,
+				6C66FBEE236AA9CD002C970F /* Info.plist */,
+				6C66FBE8236AA9CD002C970F /* Preview Content */,
+			);
+			path = "grapari-swiftui";
+			sourceTree = "<group>";
+		};
+		6C66FBE8236AA9CD002C970F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C66FBE9236AA9CD002C970F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CFD47E8236FDDB500A35CAB /* Grapari */ = {
+			isa = PBXGroup;
+			children = (
+				6CFD47E9236FDDC800A35CAB /* Grapari.swift */,
+				6CEDA045237002E700D1DB23 /* GrapariForm.swift */,
+				6CFAF50C23711FAF0029EC7F /* GrapariReport.swift */,
+				6C2743872371471100C07E21 /* GrapariReportDetail.swift */,
+				6C27438B2371519900C07E21 /* GrapariItem.swift */,
+			);
+			path = Grapari;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C66FBDC236AA9C8002C970F /* grapari-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C66FBF1236AA9CD002C970F /* Build configuration list for PBXNativeTarget "grapari-swiftui" */;
+			buildPhases = (
+				6C66FBD9236AA9C8002C970F /* Sources */,
+				6C66FBDA236AA9C8002C970F /* Frameworks */,
+				6C66FBDB236AA9C8002C970F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "grapari-swiftui";
+			productName = "grapari-swiftui";
+			productReference = 6C66FBDD236AA9C8002C970F /* grapari-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C66FBD5236AA9C8002C970F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "IT Jatim";
+				TargetAttributes = {
+					6C66FBDC236AA9C8002C970F = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C66FBD8236AA9C8002C970F /* Build configuration list for PBXProject "grapari-swiftui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C66FBD4236AA9C8002C970F;
+			productRefGroup = 6C66FBDE236AA9C8002C970F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C66FBDC236AA9C8002C970F /* grapari-swiftui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C66FBDB236AA9C8002C970F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C66FBED236AA9CD002C970F /* LaunchScreen.storyboard in Resources */,
+				6C66FBEA236AA9CD002C970F /* Preview Assets.xcassets in Resources */,
+				6C66FBE7236AA9CD002C970F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C66FBD9236AA9C8002C970F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C66FBF5236AAA0F002C970F /* BaseView.swift in Sources */,
+				6C27438C2371519900C07E21 /* GrapariItem.swift in Sources */,
+				6C66FBF9236AAB80002C970F /* ChecklistView.swift in Sources */,
+				6C66FBFB236AABDD002C970F /* ReportView.swift in Sources */,
+				6C2743882371471100C07E21 /* GrapariReportDetail.swift in Sources */,
+				6C16F4B1237422E300A5A8FB /* Auth.swift in Sources */,
+				6CEDA046237002E700D1DB23 /* GrapariForm.swift in Sources */,
+				6C2743922371633A00C07E21 /* User.swift in Sources */,
+				6CFAF50D23711FAF0029EC7F /* GrapariReport.swift in Sources */,
+				6C66FBF7236AAB6E002C970F /* HomeView.swift in Sources */,
+				6C66FBE1236AA9C8002C970F /* AppDelegate.swift in Sources */,
+				6CFD47EA236FDDC800A35CAB /* Grapari.swift in Sources */,
+				6C27438F23715F3600C07E21 /* LoginView.swift in Sources */,
+				6C66FBFD236AABFB002C970F /* LogoutView.swift in Sources */,
+				6C66FBE3236AA9C8002C970F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C66FBEB236AA9CD002C970F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C66FBEC236AA9CD002C970F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C66FBEF236AA9CD002C970F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C66FBF0236AA9CD002C970F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C66FBF2236AA9CD002C970F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grapari-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = NV3S45868F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "grapari-swiftui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itjatim.grapari-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C66FBF3236AA9CD002C970F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"grapari-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = NV3S45868F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "grapari-swiftui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itjatim.grapari-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C66FBD8236AA9C8002C970F /* Build configuration list for PBXProject "grapari-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C66FBEF236AA9CD002C970F /* Debug */,
+				6C66FBF0236AA9CD002C970F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C66FBF1236AA9CD002C970F /* Build configuration list for PBXNativeTarget "grapari-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C66FBF2236AA9CD002C970F /* Debug */,
+				6C66FBF3236AA9CD002C970F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C66FBD5236AA9C8002C970F /* Project object */;
+}
