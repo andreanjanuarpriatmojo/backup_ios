@@ -19,6 +19,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0 text-dark">Dashboard</h1>
+            <br>
+            <h5><?php echo $this->session->userdata('name') ?></h5>
+            <h5><?php echo $this->session->userdata('role') ?></h5>
+            <?php if ($this->session->userdata('role') == 'ADMIN') { ?>
+              <p>Ini untuk ADMIN</p>
+            <?php } ?>
+            <?php if ($this->session->userdata('role') == 'USER') { ?>
+              <p>Ini untuk user</p>
+            <?php } ?>
           </div>
         </div>
       </div>

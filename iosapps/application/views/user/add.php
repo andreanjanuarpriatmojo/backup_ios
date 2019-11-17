@@ -44,9 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                                 <select class="form-control" name="role">
                                                     <option selected disabled>Select User Role</option>
                                                     <option value="ADMIN">ADMIN</option>
-                                                    <option value="ADMIN">ADMIN</option>
-                                                    <option value="ADMIN">ADMIN</option>
-                                                    <option value="ADMIN">ADMIN</option>
+                                                    <option value="USER">USER</option>
                                                 </select>
                                             </div>
                                             <button type="submit" class="btn btn-info btn-block">Submit</button>

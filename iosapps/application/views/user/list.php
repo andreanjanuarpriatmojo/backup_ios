@@ -74,5 +74,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <?php $this->load->view("template/javascript.php") ?>
+        <script>
+        $(function () {
+            $("#table-fixed").DataTable();
+        });
+        </script>
     </body>
 </html>

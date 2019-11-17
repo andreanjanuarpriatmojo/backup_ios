@@ -4,12 +4,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Perangkat extends CI_Controller {
 
     public function __construct(){
-		parent::__construct();
+        parent::__construct();
         $this->load->model('M_perangkat');
     }
 
 	public function index() {
-        $this->load->view('perangkat/add');
+        if ($this->session->userdata('authenticated')) {
+            $this->load->view('perangkat/add');
+        }
+        else {
+            redirect('auth');
+        }
     }
     public function add() {
         $this->load->view('perangkat/add');
