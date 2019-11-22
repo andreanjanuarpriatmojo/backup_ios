@@ -26,6 +26,27 @@ class M_user extends CI_Model {
 
     }
 
+    public function login($data) {
+        $result = $this->db->get_where("users", $data)->row();
+        $this->db->insert("tmp_user", $result);
+            if ($result) {
+                $response=false;
+                return $response;
+            }
+            else {
+                $response=true;
+                return $response;
+            }
+    }
+
+    public function get_login() {
+        return $this->db->get("tmp_user")->result();
+    }
+
+    public function delete_tmp() {
+        return $this->db->empty_table("tmp_user");
+    }
+
     public function delete($id) {
         return $this->db->delete("users", $id);
     }

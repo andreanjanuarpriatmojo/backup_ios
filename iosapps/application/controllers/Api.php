@@ -36,6 +36,25 @@ class Api extends REST_Controller {
 		$this->response($response);
 	}
 
+	public function login_post() {
+		$data = array (
+			"name"=>$this->post('name'),
+			"password"=>md5($this->post('password'))
+		);
+		$user = $this->M_user->login($data);
+		$this->response($user);
+	}
+
+	public function login_get() {
+		$response = $this->M_user->get_login();
+		$this->response($response);
+	}
+
+	public function delete_tmp_post() {
+		$response = $this->M_user->delete_tmp();
+		$this->response($response);
+	}
+
 	public function grapari_post() {
 		$name = "TEST";
 		$table = "grapari";
